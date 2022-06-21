@@ -2855,6 +2855,10 @@ python-namedlist-pip:
   ubuntu:
     pip:
       packages: [namedlist]
+python-natsort-pip:
+  ubuntu:
+    pip:
+      packages: [natsort]
 python-nclib-pip:
   arch:
     pip:
