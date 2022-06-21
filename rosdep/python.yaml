@@ -3099,7 +3099,9 @@ python-opencv:
   rhel:
     '7': [opencv-python]
   slackware: [opencv]
-  ubuntu: [python-opencv]
+  ubuntu:
+    pip:
+      packages: [opencv-python]
 python-opengl:
   arch: [python2-opengl]
   debian: [python-opengl]
